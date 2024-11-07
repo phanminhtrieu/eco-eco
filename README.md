@@ -16,18 +16,4 @@
 - **React Native**: Framework chính để phát triển ứng dụng di động đa nền tảng.
 - **Expo**: Hỗ trợ phát triển và quản lý ứng dụng nhanh chóng.
 - **JavaScript**: Ngôn ngữ lập trình chính.
-- **Firebase Firestore**: Cơ sở dữ liệu NoSQL để lưu trữ thông tin sản phẩm, hỗ trợ đồng bộ hóa và truy vấn thời gian thực.
-
-## Yêu cầu hệ thống
-
-- **Node.js** >= 14.x
-- **Expo CLI**
-- **Firebase Project** với Firestore
-
-## Cài đặt
-
-### 1. Clone dự án
-
-```bash
-git clone https://github.com/your-username/store-management-app.git
-cd store-management-app
+- **Firebase Firestore**: Cơ sở dữ liệu NoSQL để lưu trữ thông tin sản phẩm, hỗ trợ đồng bộ hóa và truy vấn thời gian thực
