@@ -1,30 +1,33 @@
-Quản lý Cửa Hàng - Mobile App
-Giới thiệu
-Ứng dụng Quản lý Cửa Hàng là công cụ quản lý sản phẩm tiện lợi, giúp các chủ cửa hàng và người quản lý dễ dàng theo dõi và cập nhật thông tin sản phẩm mọi lúc mọi nơi. Ứng dụng được phát triển với React Native, Expo, và sử dụng Firebase Firestore làm cơ sở dữ liệu, đảm bảo tính nhanh chóng và đáng tin cậy cho việc lưu trữ và đồng bộ dữ liệu.
+# Quản lý Cửa Hàng - Mobile App
 
-Tính năng chính
-Thêm sản phẩm: Nhập thông tin sản phẩm như tên, giá, mô tả, ảnh minh họa để thêm sản phẩm vào kho.
-Xóa sản phẩm: Xóa sản phẩm khi không còn cần thiết.
-Hiển thị danh sách sản phẩm: Xem toàn bộ sản phẩm hiện có trong kho với thông tin cơ bản.
-Tìm kiếm và lọc sản phẩm (Tùy chọn): Tìm kiếm sản phẩm theo tên hoặc loại sản phẩm để thuận tiện cho việc tra cứu.
-Công nghệ sử dụng
-React Native: Framework chính để phát triển ứng dụng di động đa nền tảng.
-Expo: Quản lý và hỗ trợ phát triển ứng dụng một cách nhanh chóng và dễ dàng.
-JavaScript: Ngôn ngữ lập trình chính cho logic ứng dụng.
-Firebase Firestore: Cơ sở dữ liệu NoSQL lưu trữ thông tin sản phẩm, hỗ trợ đồng bộ hóa và truy vấn thời gian thực.
+## Giới thiệu
 
-Cấu trúc thư mục
-less
-Copy code
-├── assets                   # Chứa ảnh và tài liệu
-├── components               # Các thành phần React độc lập như ProductCard, ProductForm, ...
-├── screens                  # Các màn hình chính: HomeScreen, AddProductScreen, ...
-├── services                 # Chứa các file liên quan đến Firebase như config và các hàm dịch vụ
-├── .env                     # Cấu hình môi trường cho Firebase
-├── App.js                   # Điểm bắt đầu của ứng dụng
-└── README.md
+Ứng dụng **Quản lý Cửa Hàng** là một công cụ tiện lợi giúp chủ cửa hàng và người quản lý theo dõi, cập nhật thông tin sản phẩm trong kho qua thiết bị di động. Ứng dụng được phát triển bằng **React Native** và **Expo**, sử dụng **Firebase Firestore** làm cơ sở dữ liệu, đảm bảo tốc độ và độ chính xác trong việc lưu trữ và đồng bộ hóa dữ liệu sản phẩm.
 
-Sử dụng
-Thêm sản phẩm: Truy cập màn hình "Thêm sản phẩm" và nhập thông tin chi tiết sản phẩm.
-Xóa sản phẩm: Trên màn hình danh sách, chọn một sản phẩm và xóa nếu cần.
-Hiển thị sản phẩm: Tất cả sản phẩm sẽ hiển thị ở màn hình chính.
+## Tính năng chính
+
+- **Thêm sản phẩm**: Nhập thông tin chi tiết sản phẩm như tên, giá, mô tả và ảnh minh họa để thêm vào kho.
+- **Xóa sản phẩm**: Xóa sản phẩm không cần thiết khỏi kho hàng.
+- **Hiển thị danh sách sản phẩm**: Xem toàn bộ sản phẩm với thông tin cơ bản.
+- **Tìm kiếm và lọc sản phẩm** *(Tùy chọn)*: Tìm kiếm theo tên hoặc loại sản phẩm để dễ dàng tra cứu.
+
+## Công nghệ sử dụng
+
+- **React Native**: Framework chính để phát triển ứng dụng di động đa nền tảng.
+- **Expo**: Hỗ trợ phát triển và quản lý ứng dụng nhanh chóng.
+- **JavaScript**: Ngôn ngữ lập trình chính.
+- **Firebase Firestore**: Cơ sở dữ liệu NoSQL để lưu trữ thông tin sản phẩm, hỗ trợ đồng bộ hóa và truy vấn thời gian thực.
+
+## Yêu cầu hệ thống
+
+- **Node.js** >= 14.x
+- **Expo CLI**
+- **Firebase Project** với Firestore
+
+## Cài đặt
+
+### 1. Clone dự án
+
+```bash
+git clone https://github.com/your-username/store-management-app.git
+cd store-management-app
